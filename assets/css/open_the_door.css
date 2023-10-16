@@ -1,0 +1,165 @@
+body{
+    background-image: url(../img/bg.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #7B7B7B;
+}
+
+.nav-body{
+    display: flex;
+    padding: 0px 70px;
+}
+
+.nav-item{
+    margin: 20px;
+    padding-top: 7px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar_info{
+    display: flex;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: auto;
+    width: 313px;
+    height: 60px;
+    background: rgb(177, 177, 177);
+    border-radius: 27px;
+}
+
+.lock{
+    margin: auto;
+    width: 47px;
+    height: 46px;
+}
+
+.text_lock{
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.battery{
+    margin: auto;
+    width: 87px;
+}
+
+.card{
+    margin: 100px auto 0px auto;
+    width: 90%;
+    height: 520px;
+    background: #7B7B7B;
+    border-radius: 30px;
+}
+
+.card-title{
+    font-size: 48px;
+    margin: 0px;
+    padding: 25px 30px 15px 30px;
+    color: #FFFFFF;
+}
+
+.card-body{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 45%;
+    height: 400px;
+    background: #3b3b3b;
+    border-radius: 30px;
+}
+
+.box-title{
+    font-size: 32px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.wait-box{
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+    margin: 15px auto;
+    width: 60%;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+.bluetooth-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bluetooth-btn{
+    cursor: pointer;
+    text-align: center;
+    width: 40%;
+    margin: 25px 0px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.bluetooth-btn-title{
+    font-size: 20px;
+    margin: 10px;
+    padding: 0px;
+}
+
+.bluetooth-btn#bluetooth-open{
+    background-color: #7B7B7B;
+    color: black;
+}
+
+.bluetooth-btn#bluetooth-close{
+    background-color: rgb(175, 175, 175);
+    color: white;
+}
+
+.pin-body{
+    margin: auto;
+    text-align: center;
+}
+
+.input-pin{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 15px 0px;
+    box-sizing: border-box;
+}
+
+#submit-btn{
+    margin: auto;
+    display: block;
+    background: gray;
+    border-radius: 21px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    height: 45px;
+    margin-top: 14px;
+    width: 160px;
+}

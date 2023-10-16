@@ -1,0 +1,140 @@
+body{
+    background-image: url(../img/bg.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #7B7B7B;
+}
+
+.nav-body{
+    display: flex;
+    padding: 0px 70px;
+}
+
+.nav-item{
+    margin: 20px;
+    padding-top: 7px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar_info{
+    display: flex;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: auto;
+    width: 313px;
+    height: 60px;
+    background: rgb(177, 177, 177);
+    border-radius: 27px;
+}
+
+.lock{
+    margin: auto;
+    width: 47px;
+    height: 46px;
+}
+
+.text_lock{
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.battery{
+    margin: auto;
+    width: 87px;
+}
+
+.card{
+    margin: 100px auto 0px auto;
+    width: 90%;
+    height: 520px;
+    background: #7B7B7B;
+    border-radius: 30px;
+}
+
+.card-title{
+    font-size: 48px;
+    margin: 0px;
+    padding: 25px 30px 15px 30px;
+    color: #FFFFFF;
+}
+
+.card-body{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 400px;
+    background: #3b3b3b;
+    border-radius: 30px;
+}
+
+.box#box-history{
+    width: 60%;
+}
+.box#box-access{
+    width: 30%;
+}
+
+.box-title{
+    font-size: 32px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+/* .box-body{
+    text-align: center;
+    margin: auto;
+} */
+
+.item{
+    display: flex;
+    height: 60px;
+    width: 90%;
+    margin: 10px auto;
+    background: rgb(230, 230, 230);
+    border-radius: 15px;
+}
+
+.user-img{
+    margin: 3px;
+    width: 57px;
+}
+
+.item-name{
+    font-size: large;
+    font-weight: 700;
+    margin: 7px;
+}
+
+.item-status{
+    margin: 7px;
+}
+
+.item-date{
+    margin-right: 20px;    
+    margin-left: auto;
+}

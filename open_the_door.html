@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open The Door</title>
+  <link rel="stylesheet" href="./assets/css/open_the_door.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+			<div class="nav-body">
+				<a href="./open_the_door.html" class="nav-item">Open The Door</a>
+				<a href="./show_information.html" class="nav-item">Show The Information</a>
+				<div class="navbar_info">
+					<img src="./assets/img/lock.png" alt="" class="lock">
+					<p class="text_lock">Locked</p>
+					<img src="./assets/img/battery.png" alt="" class="battery">  
+				</div>
+			</div>
+    </div>    
+  </header>
+
+  <div class="card">
+    <h1 class="card-title">Open The Door</h1>
+    <div class="card-body">
+      <!-- Bluetooth -->
+      <div class="box">
+        <h2 class="box-title">Bluetooth</h2>
+        <div class="wait-box">Wait to Pair and Connect</div>
+        <div class="bluetooth-body">
+          <div class="bluetooth-btn" id="bluetooth-open">
+            <img class="bluetooth-icon" src="./assets/img/Bluetooth Connected.png" alt="">
+            <h6 class="bluetooth-btn-title">Bluetooth</h6>
+            <p>Open Door</p>
+          </div>
+          <div class="bluetooth-btn" id="bluetooth-close">
+            <img src="./assets/img/fluent_bluetooth-disabled-24-filled.png" alt="">
+            <h6 class="bluetooth-btn-title">Bluetooth</h6>
+            <p>Close Door</p>
+          </div>
+        </div>
+      </div>
+      <!-- Pin -->
+      <div class="box">
+        <h2 class="box-title">Pin</h2>
+        <div class="pin-body">
+          <form action="">
+            <input class="input-pin" type="text">
+            <input id="submit-btn" type="submit" name="submit" value="SUBMIT" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

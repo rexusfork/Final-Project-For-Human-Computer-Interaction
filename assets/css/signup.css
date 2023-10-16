@@ -1,0 +1,86 @@
+body{
+    background-image: url(../img/bg.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+}
+
+.card{
+    box-sizing: border-box;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(109.46deg, #7492B4 1.57%, rgba(146, 146, 146, 0.1) 100%);
+    opacity: 0.5;
+    border-radius: 30px;
+}
+
+.doorlock{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.form-title{
+    margin-top: 30px;
+    margin-left: 25px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+    color: linear-gradient(109.46deg, #7492B4 1.57%, rgba(146, 146, 146, 0.1) 100%);;
+}
+
+.form {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.form-border {
+    background: black;
+    height: 3px;
+    width: 100%;
+}
+.form-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+
+#submit-btn {
+    background: rgba(22, 33, 67, 0.78);
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px rgba(22, 33, 67, 0.78);;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 45px;
+    margin: auto;
+    margin-top: 25px;
+    width: 160px;
+}
+
+#submit-btn:hover {
+    box-shadow: 0px 1px 18px rgba(22, 33, 67, 0.78);;
+}
+
+
+
+
+
